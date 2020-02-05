@@ -1,0 +1,44 @@
+translations:
+  society_name: Eloïse Carville Traduction
+  menu:
+    home: ¡Bienvenido/a!
+    useful_links: Enlaces útiles
+    services: Servicios / Tarifas
+    whoami: ¿Quién soy?
+    contact: Contacto
+  home:
+    introduction: En un contexto de globalización y cuando las fronteras desaparecen,
+      es cada vez más difícil enfrentarse a la barrera del idioma.  <br>Con
+    part_two: , remediamos esta situación.
+    discover_more: más información
+  whoami:
+    presentation: Si busca una persona de confianza, se encuentra en la buena página.
+    part_one: |
+      Gracias a cinco años de estudios en el campo de la traducción y de la interpretación,
+      pude adquirir diversas competencias profesionales.<br>Ademas de mi grado en lenguas,
+      tengo un grado en derecho, así como un máster en Traducción e Interpretación en los
+      Servicios Públicos: pude mejorar mis conocimientos jurídicos y médicos. <br><br>
+      Ahora, trabajo en la región Gran Oeste de Francia, y a distancia. Para mi, es importante
+      proponer a mis clientes un trabajo de calidad, que responde a estos requerimientos: una traducción tiene que ser
+    strong_part: fiel, imparcial y confidencial.
+    part_two:  <br><br>  Así, le propongo servicios de traducción e interpretación EN <> FR y ES <> FR.
+  services:
+    introduction:   le propone diversos servicios de traducción e interpretación
+    read_correct: Revisión
+    translation: Traducción general y especializada (textos jurídicos y médicos), desde cualquier tipo de soporte
+    interpreting: Interpretación simultanea y consecutiva
+    whispering: Chuchotage
+    subtitling: Subtitulado
+    charges: Tarifas
+    charging_details: Las tarifas de las traducciones varían en función del tipo de documento, de la dificultad o del tipo de soporte.<br>
+      Una tarifa mínima de 40€ puede aplicarse para las traducciones de menos de 300 palabras.<br>
+      Revisión a partir de 0,02€/palabra.<br>
+      La tarifa mínima para un servicio de interpretación es 45€.<br>
+      No dude en contactarme para cualquier proyecto, los presupuestos son gratuitos.
+  contact:
+    contact_hours: Horarios
+    hours: |
+      Del lunes al viernes: 8:30am - 7:30pm<br>El sábado: 8:30am – 1:30pm<br>
+    outside_hours: Fuera de estos horarios, no dude en dejar un mensaje, le llamaré.
+    based: Actualmente en Tours, también puedo intervenir en todo el Oeste de Francia
+      (Normandía, Bretaña, Países del Loira). No dude en contactarme si necesita más detalles.

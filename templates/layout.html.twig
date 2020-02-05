@@ -1,0 +1,107 @@
+{% trans_default_domain 'translations' %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}{{ 'translations.society_name' | trans }}{% endblock %}</title>
+        {% block stylesheets %}
+            <link rel="icon" type="image/x-icon" href="{{ asset('build/images/favicon.ico') }}" />
+            <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+            <nav class="navbar navbar-expand-lg bg-white sticky-top" style="color: #9B0A44;">
+                <a class="navbar-brand" href="{{ path('home') }}">
+                    <img id="image-accueil" src="{{ asset('build/images/logo.png') }}" class="img-fluid ml-md-3">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color: #9B0A44; font-size:28px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+                    <div class="navbar-nav mr-auto mt-2 mt-lg-0"></div>
+                    <ul class="navbar-nav my-2 my-lg-0">
+                        <li class="nav-item mx-md-2">
+                            <a class="nav-link" href="{{ path('home') }}">{{ 'translations.menu.home' | trans }}</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a class="nav-link" href="{{ path('whoami') }}">{{ 'translations.menu.whoami' | trans }}</a>
+                        </li>
+                        <li class="nav-item  mx-md-2" >
+                            <a class="nav-link" href="{{ path('services') }}">{{ 'translations.menu.services' | trans }}</a>
+                        </li>
+                        <li class="nav-item  mx-md-2">
+                            <a class="nav-link" href="{{ path('contact') }}">{{ 'translations.menu.contact' | trans }}</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="?_locale=en">&#x1F1EC;&#x1F1E7;</a>
+                                <a class="dropdown-item" href="?_locale=fr">&#x1F1EB;&#x1F1F7;</a>
+                                <a class="dropdown-item" href="?_locale=es">&#x1F1EA;&#x1F1E6;</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div style="min-height: 75vh">
+                {% block content %}
+                {% endblock %}
+            </div>
+
+            {% block footer %}
+                <div class="row align-items-center justify-content-between text-center pb-2 pt-2" style="width: 100%; background: #E8A0D0; position: relative; bottom: 0; margin: 0">
+                    <div class="col-12 col-md-4">
+                        <a class="text-center" target="_blank" href="https://fr.linkedin.com/in/elo%C3%AFse-carville">
+                            <span style="color: white; font-size: 3rem">
+                                <i class="fab fa-linkedin"></i>
+                            </span>
+                        </a>
+                        <hr class="d-block d-md-none" style="border-color: white">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-white small"><span style="color: #9B0A44"> &copy; {{ 'now' | date('Y') }} Eloise Carville Traduction </span> - <a href="{{ path('legals') }}" class="text-white">Mentions légales</a></div>
+                        <hr class="d-block d-md-none" style="border-color: white">
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <p class="text-left text-white">{{ 'translations.menu.useful_links' | trans }}:</p>
+                        <ul class="text-white" style="background: #E8A0D0; padding-inline-start: 0">
+                            <li style="list-style-type: none;"><a class="text-white small" href="{{ path('whoami') }}">{{ 'translations.menu.whoami' | trans }}</a></li>
+                            <li style="list-style-type: none"><a class="text-white small" href="{{ path('services') }}">{{ 'translations.menu.services' | trans }}</a></li>
+                            <li style="list-style-type: none"><a class="text-white small" href="{{ path('contact') }}">{{ 'translations.menu.contact' | trans }}</a></li>
+                            <li style="list-style-type: none">
+                                <div class="row justify-content-center">
+                                    <div class="col-2"><a class="rounded" href="?_locale=en">&#x1F1EC;&#x1F1E7;</a></div>
+                                    <div class="col-2"><a class="rounded" href="?_locale=fr">&#x1F1EB;&#x1F1F7;</a></div>
+                                    <div class="col-2"><a class="rounded" href="?_locale=es">&#x1F1EA;&#x1F1E6;</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            {% endblock %}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+            <script>
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 45 || document.documentElement.scrollTop > 45) {
+                        document.getElementById("image-accueil").style.width = "45px";
+                    } else {
+                        document.getElementById("image-accueil").style.width = "110px";
+                    }
+                }
+            </script>
+        {% endblock %}
+    </body>
+</html>

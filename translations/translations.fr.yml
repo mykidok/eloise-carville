@@ -1,0 +1,47 @@
+translations:
+  society_name: Eloïse Carville Traduction
+  menu:
+    home: Accueil
+    useful_links: Liens utiles
+    services: Services / Tarifs
+    whoami: Qui suis-je ?
+    contact: Contact
+  home:
+    introduction: À l’heure de la mondialisation, et alors que les frontières disparaissent,
+      il est de plus en plus difficile d’être confronté à la barrière de la langue.<br>
+    part_two: |
+      &nbsp;est là pour vous aider.
+    discover_more: en découvrir plus
+  whoami:
+    presentation: Si vous recherchez une traductrice de confiance, vous avez frappé à la bonne porte.
+    part_one: |
+      Forte de cinq années d’études dans le domaine de la traduction et de l’interprétariat,
+      j’ai pu acquérir de nombreuses compétences professionnelles. <br>Mes études en double cursus
+      m’ont également permis d’obtenir des connaissances juridiques et médicales (double
+      licence Droit et Langues ; double master Traduction, Terminologie et Documentation /
+      Traduction et Interprétation dans les Services Publics).<br><br>
+      J’exerce à présent ma profession dans tout le grand ouest de la France, et à distance.
+      Je m’efforce de  proposer un travail de qualité : une traduction se doit d’être
+    strong_part: fidèle, impartiale et confidentielle.
+    part_two:  <br><br> Je vous propose donc un service de traduction et d’interprétariat EN <> FR et ES <> FR.
+  services:
+    introduction:  vous propose plusieurs services de traduction et d’interprétariat
+    read_correct: Relecture et correction
+    translation: Traduction générale et spécialisée dans les domaines juridique et médical, sur tous les types de supports
+    interpreting: Interprétariat simultané et consécutif
+    whispering: Chuchotage
+    subtitling: Sous-titrage
+    charges: Tarifs
+    charging_details: Les tarifs des traductions varient en fonction du type de document, de la complexité ou encore du type de support.<br>
+      Un forfait minimum de 40 € peut s’appliquer pour les traductions de moins de 300 mots.<br>
+      Relecture et correction à partir de 0,02 €/mot.<br>
+      Le tarif minimum pour le service d’interprétariat est de 45 €.<br>
+      N’hésitez pas à me contacter pour tout projet, les devis sont gratuits.
+  contact:
+    contact_hours: Horaires
+    hours: |
+      Du lundi au vendredi: 8h30-19h30<br>Le samedi: 8h30-13h30<br>
+    outside_hours: En dehors de ces horaires, n’hésitez pas à me laisser un message, je vous rappellerai.
+    based: Actuellement basée à Tours, je suis également mobile dans tout le grand ouest de la France
+      (Normandie, Bretagne, Pays de la Loire).
+      N’hésitez pas à me contacter pour plus de renseignements.

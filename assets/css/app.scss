@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', serif;
+}
+
+a {
+    color: #9B0A44;
+}
+
+a:hover {
+    color: lighten(#E8A0D0, 0%);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#introduction {
+    height: 650px;
+    background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/machine-ecrire.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+#image-accueil {
+    width: 110px;
+}
+
+img, a {
+    transition: 0.4s all;
+    -moz-transition: .4s all;
+    -webkit-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+
+@media (max-width: 640px) {
+    #introduction {
+        height: 435px;
+        background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/machine-ecrire.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 435px;
+    }
+}

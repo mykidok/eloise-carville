@@ -1,0 +1,31 @@
+{% extends 'layout.html.twig' %}
+{% trans_default_domain 'translations' %}
+
+
+{% block content %}
+    <div class="container-fluid" style="background: #9B0A44; color: white;">
+        <br>
+        <br>
+        <h1 class="mb-4 text-center">{{ 'translations.menu.whoami' | trans }}</h1>
+        <div class="row mb-4">
+            <div class="col-md-4 offset-md-4">
+                <h4 class="text-center">{{ 'translations.whoami.presentation' | trans }}</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ asset('build/images/livres.jpg') }}" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 offset-md-1">
+                <p class="text-justify">
+                    {{ 'translations.whoami.part_one' | trans | raw }}
+                    <strong>{{ 'translations.whoami.strong_part' | trans }}</strong>
+                    {{ 'translations.whoami.part_two' | trans | raw }}
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+{% endblock %}

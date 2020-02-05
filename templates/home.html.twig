@@ -1,0 +1,19 @@
+{% extends 'layout.html.twig' %}
+{% trans_default_domain 'translations' %}
+
+
+{% block content %}
+    <div id="introduction">
+        <div class="row" style="margin: unset">
+            <div class="col-md-4 col-10 mt-5 ml-1 mr-1 ml-md-4 mt-md-4">
+                <h4 class="text-white text-justify">
+                    {{ 'translations.home.introduction' | trans | raw }}
+                    <strong style="color: #9B0A44">{{ 'translations.society_name' | trans }}</strong>{{ 'translations.home.part_two' | trans | raw }}
+                </h4>
+                <a href="{{ path('whoami') }}" class="btn mt-md-3 p-3 btn-light text-uppercase font-weight-bold" style="color: #9B0A44;">
+                    {{ 'translations.home.discover_more' | trans }}
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

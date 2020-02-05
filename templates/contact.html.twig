@@ -1,0 +1,36 @@
+{% extends 'layout.html.twig' %}
+{% trans_default_domain 'translations' %}
+
+
+{% block content %}
+    <div class="container-fluid" style="color: #9B0A44; background: white">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <h2 class="text-center">{{ 'translations.contact.contact_hours' | trans }}</h2>
+                <hr style="width: 50%; border-color: #9B0A44;">
+                <div class="row">
+                    <div class="col-md-1">
+                        <h3>
+                            <i class="fa fa-clock"></i>
+                        </h3>
+                    </div>
+                    <div class="col-md-11">
+                        <h4>{{ 'translations.contact.hours' | trans | raw }}</h4>
+                    </div>
+                </div>
+                <p class="mt-3 mb-sm-5">
+                    {{ 'translations.contact.outside_hours' | trans }}
+                </p>
+            </div>
+            <div class="col-md-6 col-12">
+                <h2 class="text-center">{{ 'translations.menu.contact' | trans }}</h2>
+                <hr style="width: 50%; border-color: #9B0A44;">
+                <p class="text-center">
+                    {{ 'translations.contact.based' | trans }}
+                </p>
+                <p><span style="font-size: 1.5rem"><i class="fas fa-phone"></i></span>&nbsp;+33 6 02 38 78 17</p>
+                <p><span style="font-size: 1.5rem"><i class="fas fa-at"></i></span>&nbsp;<a href="mailto:eloisecarville.traduction@gmail.com">eloisecarville.traduction@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

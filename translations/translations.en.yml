@@ -1,0 +1,45 @@
+translations:
+  society_name: Eloïse Carville Traduction
+  menu:
+    home: Home
+    useful_links: Useful links
+    services: Services / Charges
+    whoami: Who am I?
+    contact: Contact
+  home:
+    introduction: With globalization and as borders are disappearing,
+      it is increasingly difficult to face the language barrier. <br>
+    part_two: |
+      &nbsp;is here to remedy this situation.
+    discover_more: find out more
+  whoami:
+    presentation: If you are searching for a trusted person, you are on the right page.
+    part_one: |
+      I studied translation and interpreting during five years and was able to develop
+      diverse professional skills. <br> I also studied law and Translation and Interpreting
+      in Public Services to gain new specific knowledge in legal and medical fields. <br><br>
+      I am now working in Western France and remotely. To me, it is really important to propose
+      a good translation to customers, that is why I follow three requirements: a translation has to be
+    strong_part: reliable, impartial and confidential.
+    part_two:  <br><br> Thus, I propose translation and interpreting services EN <> FR and ES <> FR.
+  services:
+    introduction:  proposes diverse services for translation and interpreting
+    read_correct: Rereading and correction
+    translation: General and specialized translation (legal and medical texts), from any type of support
+    interpreting: Simultaneous and consecutive interpreting
+    whispering: Whispering
+    subtitling: Subtitling
+    charges: CHARGES
+    charging_details: The charges can vary depending on the type of document,
+      the type of support and on the difficulty.<br>
+      A minimal fixed price (40€) can be applied for translations inferior to 300 words.<br>
+      Rereading and correction from 0,02€/word.<br>
+      The minimal charge for interpreting services is 45€.<br>
+      Do not hesitate to contact me for any project, quotes are free.
+  contact:
+    contact_hours: Contact Hours
+    hours: |
+      From Monday to Friday: 8:30am – 7:30pm<br>Saturday: 8:30am – 1:30pm<br>
+    outside_hours: Outside these times, do not hesitate to leave a message, I will call you back.
+    based: I am now working in Tours and I can move in all Western France (Normandy, Bretagne,
+      Pays de la Loire). Do not hesitate to contact me if you need more information.

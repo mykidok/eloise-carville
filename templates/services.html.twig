@@ -1,0 +1,74 @@
+{% extends 'layout.html.twig' %}
+{% trans_default_domain 'translations' %}
+
+
+{% block content %}
+    <div style="background: white">
+        <div id="services" class="container-fluid mt-5" style="color: #9B0A44; background: white">
+            <h3 class="text-center">
+                <strong>{{ 'translations.society_name' | trans }}</strong> {{ 'translations.services.introduction' | trans }} 
+            </h3>
+            <hr style="border-color: #9B0A44; height: 2px; width: 50%">
+
+            <div class="card-deck">
+                <div class="card" style="background: #E8A0D0; color: white">
+                    <div class="card-img-top text-center">
+                        <span style="font-size: 7rem"><i class="fas fa-eye"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-text text-center">{{ 'translations.services.read_correct' | trans }}</h5>
+                    </div>
+                </div>
+                <div class="card" style="background: #9A0944; color: white">
+                    <div class="card-img-top text-center">
+                        <span style="font-size: 7rem"><i class="fas fa-scroll"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            {{ 'translations.services.translation' | trans }}
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="background: #9A999A; color: white">
+                    <div class="card-img-top text-center">
+                        <span style="font-size: 7rem"><i class="fas fa-microphone"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-text text-center">{{ 'translations.services.interpreting' | trans }}</h5>
+                    </div>
+                </div>
+                <div class="card" style="background: #E8A0D0; color: white">
+                    <div class="card-img-top text-center">
+                        <span style="font-size: 7rem"><i class="fas fa-volume-down"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text text-center">{{ 'translations.services.whispering' | trans }}</h4>
+                    </div>
+                </div>
+                <div class="card" style="background: #9A0944; color: white">
+                    <div class="card-img-top text-center">
+                        <span style="font-size: 7rem"><i class="fas fa-film"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text text-center">{{ 'translations.services.subtitling' | trans }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="color: #9B0A44;">
+            <h1 class="mt-5 mb-3 text-center" style="color: #9B0A44; background: white">{{ 'translations.services.charges' | trans }}</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <h5 class="text-justify">
+                        {{ 'translations.services.charging_details' | trans | raw }}
+                    </h5>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="{{ asset('build/images/tarifs.jpg') }}" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+{% endblock %}
